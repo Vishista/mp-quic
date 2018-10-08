@@ -3,7 +3,7 @@ package quic
 import (
 	"errors"
 
-	"github.com/lucas-clemente/quic-go/protocol"
+	"github.com/Vishista/mp-quic/protocol"
 )
 
 //This method looks for the stream with the highest priority

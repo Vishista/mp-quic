@@ -3,8 +3,8 @@ package ackhandler
 import (
 	"time"
 
-	"github.com/lucas-clemente/quic-go/frames"
-	"github.com/lucas-clemente/quic-go/protocol"
+	"github.com/Vishista/mp-quic/frames"
+	"github.com/Vishista/mp-quic/protocol"
 )
 
 // A Packet is a packet

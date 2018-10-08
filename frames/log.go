@@ -1,6 +1,6 @@
 package frames
 
-import "github.com/lucas-clemente/quic-go/internal/utils"
+import "github.com/Vishista/mp-quic/internal/utils"
 
 // LogFrame logs a frame, either sent or received
 func LogFrame(frame Frame, sent bool) {

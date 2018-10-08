@@ -1,8 +1,8 @@
 package quic
 
 import (
-	"github.com/lucas-clemente/quic-go/frames"
-	"github.com/lucas-clemente/quic-go/protocol"
+	"github.com/Vishista/mp-quic/frames"
+	"github.com/Vishista/mp-quic/protocol"
 )
 
 func hobschedulingV2(auxiliaryData SchedulerAuxiliaryData, sc *Scheduler) (map[int][]frames.Frame, error) {

@@ -3,7 +3,7 @@ package frames
 import (
 	"bytes"
 
-	"github.com/lucas-clemente/quic-go/protocol"
+	"github.com/Vishista/mp-quic/protocol"
 )
 
 // A PingFrame is a ping frame

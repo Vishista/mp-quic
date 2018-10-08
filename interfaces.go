@@ -1,7 +1,7 @@
 package quic
 
 import (
-	"github.com/lucas-clemente/quic-go/frames"
+	"github.com/Vishista/mp-quic/frames"
 )
 
 // ReceivedPacketHandler handles ACKs needed to send for incoming packets

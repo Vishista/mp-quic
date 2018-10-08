@@ -1,6 +1,6 @@
 package utils
 
-import "github.com/lucas-clemente/quic-go/protocol"
+import "github.com/Vishista/mp-quic/protocol"
 
 // PacketInterval is an interval from one PacketNumber to the other
 // +gen linkedlist

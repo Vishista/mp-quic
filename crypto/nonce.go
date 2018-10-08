@@ -3,7 +3,7 @@ package crypto
 import (
 	"encoding/binary"
 
-	"github.com/lucas-clemente/quic-go/protocol"
+	"github.com/Vishista/mp-quic/protocol"
 )
 
 func makeNonce(iv []byte, packetNumber protocol.PacketNumber) []byte {

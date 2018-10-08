@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/lucas-clemente/quic-go/internal/utils"
-	"github.com/lucas-clemente/quic-go/protocol"
+	"github.com/Vishista/mp-quic/protocol"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

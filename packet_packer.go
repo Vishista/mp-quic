@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/lucas-clemente/quic-go/ackhandler"
-	"github.com/lucas-clemente/quic-go/frames"
-	"github.com/lucas-clemente/quic-go/handshake"
-	"github.com/lucas-clemente/quic-go/protocol"
+	"github.com/Vishista/mp-quic/ackhandler"
+	"github.com/Vishista/mp-quic/frames"
+	"github.com/Vishista/mp-quic/handshake"
+	"github.com/Vishista/mp-quic/protocol"
 )
 
 type packedPacket struct {

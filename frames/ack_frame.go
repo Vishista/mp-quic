@@ -5,8 +5,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/lucas-clemente/quic-go/internal/utils"
-	"github.com/lucas-clemente/quic-go/protocol"
+	"github.com/Vishista/mp-quic/internal/utils"
+	"github.com/Vishista/mp-quic/protocol"
 )
 
 var (

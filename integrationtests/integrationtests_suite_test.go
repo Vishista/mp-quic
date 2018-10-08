@@ -23,7 +23,7 @@ import (
 
 	"github.com/lucas-clemente/quic-go/h2quic"
 	"github.com/lucas-clemente/quic-go/internal/utils"
-	"github.com/lucas-clemente/quic-go/protocol"
+	"github.com/Vishista/mp-quic/protocol"
 	"github.com/lucas-clemente/quic-go/testdata"
 	"github.com/tebeka/selenium"
 

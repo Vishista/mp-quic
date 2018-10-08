@@ -6,8 +6,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/lucas-clemente/quic-go/handshake"
-	"github.com/lucas-clemente/quic-go/protocol"
+	"github.com/Vishista/mp-quic/handshake"
+	"github.com/Vishista/mp-quic/protocol"
 	"github.com/lucas-clemente/quic-go/qerr"
 )
 

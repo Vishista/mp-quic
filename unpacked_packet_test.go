@@ -1,7 +1,7 @@
 package quic
 
 import (
-	"github.com/lucas-clemente/quic-go/frames"
+	"github.com/Vishista/mp-quic/frames"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

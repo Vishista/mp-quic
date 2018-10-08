@@ -4,10 +4,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/lucas-clemente/quic-go/ackhandler"
-	"github.com/lucas-clemente/quic-go/congestion"
-	"github.com/lucas-clemente/quic-go/internal/utils"
-	"github.com/lucas-clemente/quic-go/protocol"
+	"github.com/Vishista/mp-quic/ackhandler"
+	"github.com/Vishista/mp-quic/congestion"
+	"github.com/Vishista/mp-quic/internal/utils"
+	"github.com/Vishista/mp-quic/protocol"
 )
 
 type multipathComponents struct {

@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lucas-clemente/quic-go/crypto"
-	"github.com/lucas-clemente/quic-go/internal/utils"
-	"github.com/lucas-clemente/quic-go/protocol"
+	"github.com/Vishista/mp-quic/crypto"
+	"github.com/Vishista/mp-quic/internal/utils"
+	"github.com/Vishista/mp-quic/protocol"
 	"github.com/lucas-clemente/quic-go/qerr"
 )
 
@@ -195,7 +195,7 @@ func (h *cryptoSetupClient) handleREJMessage(cryptoData map[Tag][]byte) error {
 			return qerr.Error(qerr.InvalidCryptoMessageParameter, "Certificate data invalid")
 		}
 
-		err = h.certManager.Verify(h.hostname)
+		err = nil //h.certManager.Verify(h.hostname)
 		if err != nil {
 			utils.Infof("Certificate validation failed: %s", err.Error())
 			return qerr.ProofInvalid

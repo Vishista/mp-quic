@@ -6,7 +6,7 @@ import (
 
 	"github.com/lucas-clemente/aes12"
 
-	"github.com/lucas-clemente/quic-go/protocol"
+	"github.com/Vishista/mp-quic/protocol"
 )
 
 type aeadAESGCM struct {

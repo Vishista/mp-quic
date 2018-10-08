@@ -14,9 +14,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lucas-clemente/quic-go/h2quic"
-	"github.com/lucas-clemente/quic-go/internal/utils"
-	"github.com/lucas-clemente/quic-go/protocol"
+	"github.com/Vishista/mp-quic/h2quic"
+	"github.com/Vishista/mp-quic/internal/utils"
+	"github.com/Vishista/mp-quic/protocol"
 	"golang.org/x/net/html"
 	"crypto/tls"
 )
@@ -107,7 +107,7 @@ func main() {
 		utils.Infof("GET %s", addr)
 		go func(addr string, index int) {
 			start := time.Now()
-
+                     utils.Infof("haan", addr)
 			rsp, err := hclient.Get(addr)
 			if err != nil {
 				panic(err)
@@ -119,8 +119,8 @@ func main() {
 			if err != nil {
 				panic(err)
 			}
-			//utils.Infof("Request Body Complete!")
-			//utils.Infof("HTML:\n\n %s", body.Bytes())
+			utils.Infof("Request Body Complete!")
+			utils.Infof("HTML:\n\n %s", body.Bytes())
 			elapsed := time.Since(start)
 			utils.Infof("=====MAIN HTML LOADING COMPLETE====")
 			utils.Infof("Loading %s took %s", addr, elapsed)

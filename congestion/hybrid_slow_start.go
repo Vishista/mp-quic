@@ -3,8 +3,8 @@ package congestion
 import (
 	"time"
 
-	"github.com/lucas-clemente/quic-go/internal/utils"
-	"github.com/lucas-clemente/quic-go/protocol"
+	"github.com/Vishista/mp-quic/internal/utils"
+	"github.com/Vishista/mp-quic/protocol"
 )
 
 // Note(pwestin): the magic clamping numbers come from the original code in

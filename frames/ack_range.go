@@ -1,6 +1,6 @@
 package frames
 
-import "github.com/lucas-clemente/quic-go/protocol"
+import "github.com/Vishista/mp-quic/protocol"
 
 // AckRange is an ACK range
 type AckRange struct {
